@@ -38,4 +38,5 @@ jobs:
         with:
           artifacts: "dist/app/*"
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: "latest"
           
