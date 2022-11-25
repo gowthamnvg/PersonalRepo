@@ -1,6 +1,4 @@
 on: push
-tags:
-  - '*'
 name: Build Angular
 jobs:
   create-tag:
