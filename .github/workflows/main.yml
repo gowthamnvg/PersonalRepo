@@ -1,7 +1,6 @@
+on: push
 name: Build Angular
-on: 
-  push:
-    tags:
+tags:
     - '*'
 jobs:
   build:
