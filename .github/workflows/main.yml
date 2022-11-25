@@ -24,7 +24,7 @@ jobs:
       - name: npm install and run build
         run: |
           npm i
-          ng build --prod --sourceMap=false --base-href /PersonalRepo/
+          ng build --prod --sourceMap=false --base-href ./PersonalRepo/
       - name: Push Build to Releases
         uses: ncipollo/release-action@v1
         with:
